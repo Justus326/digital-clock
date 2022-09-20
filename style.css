@@ -22,16 +22,14 @@ h1{
     letter-spacing: 4px;
     color: white;     
 }
-.clock{
-    
-    display: flex;   
-    
+.clock{    
+    display: flex;
+    box-sizing: border-box;     
 }
 .clock div{
     margin: 5px;
     position: relative;
-    
-    
+    box-sizing: border-box;    
 }
 .clock span{
     width: 100px;
